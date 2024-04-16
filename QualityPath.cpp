@@ -907,8 +907,8 @@ int main(){
     weig = 10;
 
     string na = "ukunion";
-    string name = "/mnt/data/zyy/Full/"+na+".graph";
-    string Newfile = "Result/"+na+"_result", Newfile2 = na+"_Query";
+    string name = na+".graph";
+    string Newfile = na+"_result", Newfile2 = na+"_Query";
 
     threads = 10;
     vector<unsigned> stk, lab;
