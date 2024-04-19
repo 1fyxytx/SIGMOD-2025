@@ -182,7 +182,7 @@ void GraphInitial(string filename, int ccc){
             Parameter();
         }else{
             while(s1){
-                int va = xx - 1, vb = atoi(s1)-1,
+                int va = xx - 1, vb = atoi(s1),
                     w = (va+vb) % weig + 1;
                 // cout<<va<<"  "<<vb<<"  "<<w<<endl;
                 
